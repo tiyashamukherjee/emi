@@ -1,0 +1,53 @@
+# Created on 2020-07-30T09:13:59.102
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2020-07-30T09:14:03.615
+Unexpected IOException: 6,1,test.NewTest,Test0(test.NewTest),null,null,null
+
+
+# Created on 2020-07-30T09:14:04.042
+Unexpected IOException: 5,1,test.NewTest,Test1(test.NewTest),Regression Test,null,null
+
+
+# Created on 2020-07-30T09:14:04.051
+Unexpected IOException with stream: 07-30-2020 09:14:04 NewTest.java INFO  [main] test.NewTest 63 - ***********SELECTION OF CAR LOAN*************
+
+
+# Created on 2020-07-30T09:14:05.486
+Unexpected IOException: 6,1,test.NewTest,Test1(test.NewTest),null,null,null
+
+
+# Created on 2020-07-30T09:14:05.497
+Unexpected IOException: 5,1,test.NewTest,smoke1(test.NewTest),Smoke Test,null,null
+
+
+# Created on 2020-07-30T09:14:05.504
+Unexpected IOException with stream: 07-30-2020 09:14:05 NewTest.java INFO  [main] test.NewTest 166 - ============== Checking car loan button ==================
+
+
+# Created on 2020-07-30T09:14:05.659
+Unexpected IOException with stream: Is car loan tab enabled? true
+
+
+# Created on 2020-07-30T09:14:05.661
+Unexpected IOException with stream: 
+
+
+# Created on 2020-07-30T09:14:08.904
+Unexpected IOException: 6,1,test.NewTest,smoke1(test.NewTest),null,null,null
+
+
+# Created on 2020-07-30T09:14:08.922
+Unexpected IOException: 5,1,test.NewTest,Test2(test.NewTest),Regression Test,null,null
+
+
+# Created on 2020-07-30T09:14:08.931
+Unexpected IOException with stream: 07-30-2020 09:14:08 NewTest.java INFO  [main] test.NewTest 75 - ***********PROVIDING THE AMOUNT******************
+
+

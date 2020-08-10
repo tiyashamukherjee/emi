@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="18" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44669" started-at="2020-08-10T09:14:50Z" finished-at="2020-08-10T09:15:34Z">
+    <groups>
+      <group name="Regression Test">
+        <method signature="NewTest.Test0()[pri:0, instance:test.NewTest@2b56f5f8]" name="Test0" class="test.NewTest"/>
+        <method signature="NewTest.Test1()[pri:1, instance:test.NewTest@2b56f5f8]" name="Test1" class="test.NewTest"/>
+        <method signature="NewTest.Test2()[pri:2, instance:test.NewTest@2b56f5f8]" name="Test2" class="test.NewTest"/>
+        <method signature="NewTest.Test3()[pri:3, instance:test.NewTest@2b56f5f8]" name="Test3" class="test.NewTest"/>
+        <method signature="NewTest.Test4()[pri:4, instance:test.NewTest@2b56f5f8]" name="Test4" class="test.NewTest"/>
+        <method signature="NewTest.Test5()[pri:5, instance:test.NewTest@2b56f5f8]" name="Test5" class="test.NewTest"/>
+        <method signature="NewTest.Test6()[pri:6, instance:test.NewTest@2b56f5f8]" name="Test6" class="test.NewTest"/>
+        <method signature="NewTest.Test7()[pri:7, instance:test.NewTest@2b56f5f8]" name="Test7" class="test.NewTest"/>
+        <method signature="NewTest.Test8()[pri:8, instance:test.NewTest@2b56f5f8]" name="Test8" class="test.NewTest"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="NewTest.Test0()[pri:0, instance:test.NewTest@2b56f5f8]" name="Test0" class="test.NewTest"/>
+        <method signature="NewTest.smoke1()[pri:1, instance:test.NewTest@2b56f5f8]" name="smoke1" class="test.NewTest"/>
+        <method signature="NewTest.smoke2()[pri:2, instance:test.NewTest@2b56f5f8]" name="smoke2" class="test.NewTest"/>
+        <method signature="NewTest.smoke3()[pri:3, instance:test.NewTest@2b56f5f8]" name="smoke3" class="test.NewTest"/>
+        <method signature="NewTest.smoke4()[pri:4, instance:test.NewTest@2b56f5f8]" name="smoke4" class="test.NewTest"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name=" Chrome Execution" duration-ms="44669" started-at="2020-08-10T09:14:50Z" finished-at="2020-08-10T09:15:34Z">
+      <class name="test.NewTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.NewTest@2b56f5f8]" name="beforeTest" is-config="true" duration-ms="9238" started-at="2020-08-10T09:14:50Z" finished-at="2020-08-10T09:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Test0()[pri:0, instance:test.NewTest@2b56f5f8]" name="Test0" duration-ms="5798" started-at="2020-08-10T09:14:59Z" description="Opening of the browser" finished-at="2020-08-10T09:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test0 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="4" started-at="2020-08-10T09:15:06Z" finished-at="2020-08-10T09:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test0 status=SUCCESS method=NewTest.Test0()[pri:0, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test1()[pri:1, instance:test.NewTest@2b56f5f8]" name="Test1" duration-ms="2160" started-at="2020-08-10T09:15:06Z" description="Selection of car loan" finished-at="2020-08-10T09:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:09Z" finished-at="2020-08-10T09:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=NewTest.Test1()[pri:1, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke1()[pri:1, instance:test.NewTest@2b56f5f8]" name="smoke1" duration-ms="3233" started-at="2020-08-10T09:15:09Z" finished-at="2020-08-10T09:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke1 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:12Z" finished-at="2020-08-10T09:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke1 status=SUCCESS method=NewTest.smoke1()[pri:1, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test2()[pri:2, instance:test.NewTest@2b56f5f8]" name="Test2" duration-ms="7914" started-at="2020-08-10T09:15:12Z" description="Providing amount to the input" finished-at="2020-08-10T09:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="2" started-at="2020-08-10T09:15:20Z" finished-at="2020-08-10T09:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=NewTest.Test2()[pri:2, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke2()[pri:2, instance:test.NewTest@2b56f5f8]" name="smoke2" duration-ms="120" started-at="2020-08-10T09:15:20Z" finished-at="2020-08-10T09:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke2 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:20Z" finished-at="2020-08-10T09:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke2 status=SUCCESS method=NewTest.smoke2()[pri:2, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test3()[pri:3, instance:test.NewTest@2b56f5f8]" name="Test3" duration-ms="2474" started-at="2020-08-10T09:15:20Z" description="Providing interest to the input" finished-at="2020-08-10T09:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="2" started-at="2020-08-10T09:15:22Z" finished-at="2020-08-10T09:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test3 status=SUCCESS method=NewTest.Test3()[pri:3, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke3()[pri:3, instance:test.NewTest@2b56f5f8]" name="smoke3" duration-ms="126" started-at="2020-08-10T09:15:22Z" finished-at="2020-08-10T09:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke3 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:23Z" finished-at="2020-08-10T09:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke3 status=SUCCESS method=NewTest.smoke3()[pri:3, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test4()[pri:4, instance:test.NewTest@2b56f5f8]" name="Test4" duration-ms="2544" started-at="2020-08-10T09:15:23Z" description="Providing tenure to the input" finished-at="2020-08-10T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-08-10T09:15:25Z" finished-at="2020-08-10T09:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test4 status=SUCCESS method=NewTest.Test4()[pri:4, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke4()[pri:4, instance:test.NewTest@2b56f5f8]" name="smoke4" duration-ms="57" started-at="2020-08-10T09:15:25Z" finished-at="2020-08-10T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke4 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:25Z" finished-at="2020-08-10T09:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke4 status=SUCCESS method=NewTest.smoke4()[pri:4, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test5()[pri:5, instance:test.NewTest@2b56f5f8]" name="Test5" duration-ms="98" started-at="2020-08-10T09:15:25Z" description="Generating the results" finished-at="2020-08-10T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:25Z" finished-at="2020-08-10T09:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test5 status=SUCCESS method=NewTest.Test5()[pri:5, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test6()[pri:6, instance:test.NewTest@2b56f5f8]" name="Test6" duration-ms="343" started-at="2020-08-10T09:15:25Z" description="Scrolling the page" finished-at="2020-08-10T09:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-08-10T09:15:26Z" finished-at="2020-08-10T09:15:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test6 status=SUCCESS method=NewTest.Test6()[pri:6, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test7()[pri:7, instance:test.NewTest@2b56f5f8]" name="Test7" duration-ms="1568" started-at="2020-08-10T09:15:26Z" description="Getting the value of principal and interest" finished-at="2020-08-10T09:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:27Z" finished-at="2020-08-10T09:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test7 status=SUCCESS method=NewTest.Test7()[pri:7, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test8()[pri:8, instance:test.NewTest@2b56f5f8]" name="Test8" duration-ms="3680" started-at="2020-08-10T09:15:27Z" description="Taking screenshots" finished-at="2020-08-10T09:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@2b56f5f8]" name="flushAndEndTestMethod" is-config="true" duration-ms="2" started-at="2020-08-10T09:15:31Z" finished-at="2020-08-10T09:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test8 status=SUCCESS method=NewTest.Test8()[pri:8, instance:test.NewTest@2b56f5f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.NewTest@2b56f5f8]" name="close" is-config="true" duration-ms="3434" started-at="2020-08-10T09:15:31Z" finished-at="2020-08-10T09:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.NewTest -->
+    </test> <!--  Chrome Execution -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="28865" started-at="2020-08-10T09:15:35Z" finished-at="2020-08-10T09:16:03Z">
+    <groups>
+    </groups>
+    <test name="Chrome Execution" duration-ms="28865" started-at="2020-08-10T09:15:35Z" finished-at="2020-08-10T09:16:03Z">
+      <class name="test.InvalidTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.InvalidTest@7ce4de34]" name="beforeTest" is-config="true" duration-ms="5877" started-at="2020-08-10T09:15:35Z" finished-at="2020-08-10T09:15:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Test0()[pri:0, instance:test.InvalidTest@7ce4de34]" name="Test0" duration-ms="6005" started-at="2020-08-10T09:15:40Z" description="Opening of the browser" finished-at="2020-08-10T09:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test0 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@7ce4de34]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:46Z" finished-at="2020-08-10T09:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test0 status=SUCCESS method=InvalidTest.Test0()[pri:0, instance:test.InvalidTest@7ce4de34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test1()[pri:1, instance:test.InvalidTest@7ce4de34]" name="Test1" duration-ms="1204" started-at="2020-08-10T09:15:46Z" description="Selection of car loan" finished-at="2020-08-10T09:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@7ce4de34]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:48Z" finished-at="2020-08-10T09:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=InvalidTest.Test1()[pri:1, instance:test.InvalidTest@7ce4de34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test2()[pri:2, instance:test.InvalidTest@7ce4de34]" name="Test2" duration-ms="5501" started-at="2020-08-10T09:15:48Z" description="Providing amount to the input" finished-at="2020-08-10T09:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@7ce4de34]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-10T09:15:53Z" finished-at="2020-08-10T09:15:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=InvalidTest.Test2()[pri:2, instance:test.InvalidTest@7ce4de34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="FAIL" signature="Test3()[pri:3, instance:test.InvalidTest@7ce4de34]" name="Test3" duration-ms="3425" started-at="2020-08-10T09:15:53Z" description="Providing interest to the input" finished-at="2020-08-10T09:15:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Doesnt contain 0 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Doesnt contain 0 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at test.InvalidTest.Test3(InvalidTest.java:101)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@7ce4de34]" name="flushAndEndTestMethod" is-config="true" duration-ms="568" started-at="2020-08-10T09:15:57Z" finished-at="2020-08-10T09:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test3 status=FAILURE method=InvalidTest.Test3()[pri:3, instance:test.InvalidTest@7ce4de34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="FAIL" signature="Test4()[pri:4, instance:test.InvalidTest@7ce4de34]" name="Test4" duration-ms="3131" started-at="2020-08-10T09:15:57Z" description="Providing tenure to the input" finished-at="2020-08-10T09:16:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Doesnt contain 0 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Doesnt contain 0 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at test.InvalidTest.Test4(InvalidTest.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@7ce4de34]" name="flushAndEndTestMethod" is-config="true" duration-ms="586" started-at="2020-08-10T09:16:00Z" finished-at="2020-08-10T09:16:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test4 status=FAILURE method=InvalidTest.Test4()[pri:4, instance:test.InvalidTest@7ce4de34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.InvalidTest@7ce4de34]" name="close" is-config="true" duration-ms="2442" started-at="2020-08-10T09:16:01Z" finished-at="2020-08-10T09:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.InvalidTest -->
+    </test> <!-- Chrome Execution -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

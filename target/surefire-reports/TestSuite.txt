@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 77.562 s <<< FAILURE! - in TestSuite
+Test3(test.InvalidTest)  Time elapsed: 3.497 s  <<< FAILURE!
+java.lang.AssertionError: Doesnt contain 0 expected [true] but found [false]
+	at test.InvalidTest.Test3(InvalidTest.java:101)
+
+Test4(test.InvalidTest)  Time elapsed: 3.133 s  <<< FAILURE!
+java.lang.AssertionError: Doesnt contain 0 expected [true] but found [false]
+	at test.InvalidTest.Test4(InvalidTest.java:119)
+

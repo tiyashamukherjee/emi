@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55315" started-at="2020-07-29T20:01:08Z" finished-at="2020-07-29T20:02:04Z">
+    <groups>
+      <group name="Regression Test">
+        <method signature="NewTest.Test0()[pri:0, instance:test.NewTest@573284a5]" name="Test0" class="test.NewTest"/>
+        <method signature="NewTest.Test1()[pri:1, instance:test.NewTest@573284a5]" name="Test1" class="test.NewTest"/>
+        <method signature="NewTest.Test2()[pri:2, instance:test.NewTest@573284a5]" name="Test2" class="test.NewTest"/>
+        <method signature="NewTest.Test3()[pri:3, instance:test.NewTest@573284a5]" name="Test3" class="test.NewTest"/>
+        <method signature="NewTest.Test4()[pri:4, instance:test.NewTest@573284a5]" name="Test4" class="test.NewTest"/>
+        <method signature="NewTest.Test5()[pri:5, instance:test.NewTest@573284a5]" name="Test5" class="test.NewTest"/>
+        <method signature="NewTest.Test6()[pri:6, instance:test.NewTest@573284a5]" name="Test6" class="test.NewTest"/>
+        <method signature="NewTest.Test7()[pri:7, instance:test.NewTest@573284a5]" name="Test7" class="test.NewTest"/>
+        <method signature="NewTest.Test8()[pri:8, instance:test.NewTest@573284a5]" name="Test8" class="test.NewTest"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="NewTest.Test0()[pri:0, instance:test.NewTest@573284a5]" name="Test0" class="test.NewTest"/>
+        <method signature="NewTest.smoke1()[pri:1, instance:test.NewTest@573284a5]" name="smoke1" class="test.NewTest"/>
+        <method signature="NewTest.smoke2()[pri:2, instance:test.NewTest@573284a5]" name="smoke2" class="test.NewTest"/>
+        <method signature="NewTest.smoke3()[pri:3, instance:test.NewTest@573284a5]" name="smoke3" class="test.NewTest"/>
+        <method signature="NewTest.smoke4()[pri:4, instance:test.NewTest@573284a5]" name="smoke4" class="test.NewTest"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name="Chrome Execution" duration-ms="55315" started-at="2020-07-29T20:01:08Z" finished-at="2020-07-29T20:02:04Z">
+      <class name="test.NewTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.NewTest@573284a5]" name="beforeTest" is-config="true" duration-ms="14382" started-at="2020-07-29T20:01:08Z" finished-at="2020-07-29T20:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Test0()[pri:0, instance:test.NewTest@573284a5]" name="Test0" duration-ms="11194" started-at="2020-07-29T20:01:23Z" description="Opening of the browser" finished-at="2020-07-29T20:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test0 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="3" started-at="2020-07-29T20:01:35Z" finished-at="2020-07-29T20:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test0 status=SUCCESS method=NewTest.Test0()[pri:0, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test1()[pri:1, instance:test.NewTest@573284a5]" name="Test1" duration-ms="1412" started-at="2020-07-29T20:01:35Z" description="Selection of car loan" finished-at="2020-07-29T20:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-07-29T20:01:36Z" finished-at="2020-07-29T20:01:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=NewTest.Test1()[pri:1, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke1()[pri:1, instance:test.NewTest@573284a5]" name="smoke1" duration-ms="3231" started-at="2020-07-29T20:01:36Z" finished-at="2020-07-29T20:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke1 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-07-29T20:01:40Z" finished-at="2020-07-29T20:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke1 status=SUCCESS method=NewTest.smoke1()[pri:1, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test2()[pri:2, instance:test.NewTest@573284a5]" name="Test2" duration-ms="7905" started-at="2020-07-29T20:01:40Z" description="Providing amount to the input" finished-at="2020-07-29T20:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-07-29T20:01:47Z" finished-at="2020-07-29T20:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=NewTest.Test2()[pri:2, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke2()[pri:2, instance:test.NewTest@573284a5]" name="smoke2" duration-ms="63" started-at="2020-07-29T20:01:47Z" finished-at="2020-07-29T20:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke2 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-07-29T20:01:48Z" finished-at="2020-07-29T20:01:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke2 status=SUCCESS method=NewTest.smoke2()[pri:2, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test3()[pri:3, instance:test.NewTest@573284a5]" name="Test3" duration-ms="2578" started-at="2020-07-29T20:01:48Z" description="Providing interest to the input" finished-at="2020-07-29T20:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-07-29T20:01:50Z" finished-at="2020-07-29T20:01:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test3 status=SUCCESS method=NewTest.Test3()[pri:3, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke3()[pri:3, instance:test.NewTest@573284a5]" name="smoke3" duration-ms="72" started-at="2020-07-29T20:01:50Z" finished-at="2020-07-29T20:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke3 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-07-29T20:01:50Z" finished-at="2020-07-29T20:01:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke3 status=SUCCESS method=NewTest.smoke3()[pri:3, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test4()[pri:4, instance:test.NewTest@573284a5]" name="Test4" duration-ms="2626" started-at="2020-07-29T20:01:50Z" description="Providing tenure to the input" finished-at="2020-07-29T20:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-07-29T20:01:53Z" finished-at="2020-07-29T20:01:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test4 status=SUCCESS method=NewTest.Test4()[pri:4, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke4()[pri:4, instance:test.NewTest@573284a5]" name="smoke4" duration-ms="61" started-at="2020-07-29T20:01:53Z" finished-at="2020-07-29T20:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke4 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-07-29T20:01:53Z" finished-at="2020-07-29T20:01:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke4 status=SUCCESS method=NewTest.smoke4()[pri:4, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test5()[pri:5, instance:test.NewTest@573284a5]" name="Test5" duration-ms="412" started-at="2020-07-29T20:01:53Z" description="Generating the results" finished-at="2020-07-29T20:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-07-29T20:01:53Z" finished-at="2020-07-29T20:01:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test5 status=SUCCESS method=NewTest.Test5()[pri:5, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test6()[pri:6, instance:test.NewTest@573284a5]" name="Test6" duration-ms="1048" started-at="2020-07-29T20:01:53Z" description="Scrolling the page" finished-at="2020-07-29T20:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-07-29T20:01:54Z" finished-at="2020-07-29T20:01:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test6 status=SUCCESS method=NewTest.Test6()[pri:6, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test7()[pri:7, instance:test.NewTest@573284a5]" name="Test7" duration-ms="1549" started-at="2020-07-29T20:01:54Z" description="Getting the value of principal and interest" finished-at="2020-07-29T20:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-07-29T20:01:56Z" finished-at="2020-07-29T20:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test7 status=SUCCESS method=NewTest.Test7()[pri:7, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test8()[pri:8, instance:test.NewTest@573284a5]" name="Test8" duration-ms="3794" started-at="2020-07-29T20:01:56Z" description="Taking screenshots" finished-at="2020-07-29T20:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.NewTest@573284a5]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-07-29T20:02:00Z" finished-at="2020-07-29T20:02:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test8 status=SUCCESS method=NewTest.Test8()[pri:8, instance:test.NewTest@573284a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.NewTest@573284a5]" name="close" is-config="true" duration-ms="3997" started-at="2020-07-29T20:02:00Z" finished-at="2020-07-29T20:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.NewTest -->
+    </test> <!-- Chrome Execution -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,57 @@
+# Created on 2020-07-30T03:04:11.825
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2020-07-30T03:04:14.609
+Unexpected IOException: 6,1,test.InvalidTest,Test0(test.InvalidTest),null,null,null
+
+
+# Created on 2020-07-30T03:04:14.617
+Unexpected IOException: 5,1,test.InvalidTest,Test1(test.InvalidTest),test.InvalidTest,null,null
+
+
+# Created on 2020-07-30T03:04:14.625
+Unexpected IOException with stream: 07-30-2020 03:04:14 InvalidTest.java INFO  [main] test.InvalidTest 66 - ***********SELECTION OF CAR LOAN*************
+
+
+# Created on 2020-07-30T03:04:16.592
+Unexpected IOException: 6,1,test.InvalidTest,Test1(test.InvalidTest),null,null,null
+
+
+# Created on 2020-07-30T03:04:16.598
+Unexpected IOException: 5,1,test.InvalidTest,Test2(test.InvalidTest),test.InvalidTest,null,null
+
+
+# Created on 2020-07-30T03:04:16.603
+Unexpected IOException with stream: 07-30-2020 03:04:16 InvalidTest.java INFO  [main] test.InvalidTest 78 - ***********PROVIDING THE AMOUNT******************
+
+
+# Created on 2020-07-30T03:04:22.125
+Unexpected IOException: 6,1,test.InvalidTest,Test2(test.InvalidTest),null,null,null
+
+
+# Created on 2020-07-30T03:04:22.134
+Unexpected IOException: 5,1,test.InvalidTest,Test3(test.InvalidTest),test.InvalidTest,null,null
+
+
+# Created on 2020-07-30T03:04:22.138
+Unexpected IOException with stream: 07-30-2020 03:04:22 InvalidTest.java INFO  [main] test.InvalidTest 92 - ***********PROVIDING THE INTEREST*************
+
+
+# Created on 2020-07-30T03:04:26.389
+Unexpected IOException: 8,1,test.InvalidTest,Test3(test.InvalidTest),null,Doesnt contain 0 expected [true] but found [false],null,Doesnt contain 0 expected [true] but found [false],InvalidTest.Test3:101 Doesnt contain 0 expected [true] but found [false],java.lang.AssertionError: Doesnt contain 0 expected [true] but found [false]\000A\0009at test.InvalidTest.Test3(InvalidTest.java:101)\000A
+
+
+# Created on 2020-07-30T03:04:27.155
+Unexpected IOException: 5,1,test.InvalidTest,Test4(test.InvalidTest),test.InvalidTest,null,null
+
+
+# Created on 2020-07-30T03:04:27.158
+Unexpected IOException with stream: 07-30-2020 03:04:27 InvalidTest.java INFO  [main] test.InvalidTest 110 - ***********PROVIDING THE TENURE*************
+
+

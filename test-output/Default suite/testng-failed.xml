@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.InvalidTest">
+        <methods>
+          <include name="Test4"/>
+          <include name="Test1"/>
+          <include name="Test0"/>
+          <include name="flushAndEndTestMethod"/>
+          <include name="beforeTest"/>
+          <include name="close"/>
+          <include name="Test3"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- test.InvalidTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
